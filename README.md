@@ -34,4 +34,13 @@ disbled: disble input
 ![Input Name example](public/name-wth-btn.png)
 ## variant "text" without prop clearable
 ![Input Name example](public/name-empty-input.png)
-
+## variant "number"
+![Input Name example](public/input-number.png)
+## variant "email"
+![Input Name example](public/email.png)
+## variant "password" is not visible value
+![Input Name example](public/password-not-visible.png)
+## variant "password" is visible value
+![Input Name example](public/password-visible.png)
+## variant "error"
+![Input Name example](public/input-error.png)
