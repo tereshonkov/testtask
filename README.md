@@ -30,5 +30,5 @@ value: value for input
 onChange: function for value
 disbled: disble input
 
-![Input Name example](public/name-width-btn.png)
+![Input Name example](public/name-wth-btn.png)
 
