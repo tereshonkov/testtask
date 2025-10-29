@@ -1,14 +1,12 @@
 import { useState } from "react";
 import Toast from "../components/Toast/Toast";
-import { Meta, StoryObj } from "@storybook/react";
+import { Meta } from "@storybook/react";
 
 const meta: Meta<typeof Toast> = {
   title: "Components/Toast",
   component: Toast,
 };
 export default meta;
-
-type Story = StoryObj<typeof Toast>;
 
 export const InteractiveSuccess = () => {
   const [visible, setVisible] = useState(true);

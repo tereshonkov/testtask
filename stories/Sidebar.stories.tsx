@@ -1,14 +1,12 @@
 import { useState } from "react";
 import Sidebar from "@/components/Sidebar/Sidebar";
-import { Meta, StoryObj } from "@storybook/react";
+import { Meta } from "@storybook/react";
 
 const meta: Meta<typeof Sidebar> = {
   title: "Components/Sidebar",
   component: Sidebar,
 };
 export default meta;
-
-type Story = StoryObj<typeof Sidebar>;
 
 export const InteractiveSidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
