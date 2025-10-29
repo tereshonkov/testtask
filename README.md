@@ -35,12 +35,24 @@ disbled: disble input
 ## variant "text" without prop clearable
 ![Input Name example](public/name-empty-input.png)
 ## variant "number"
-![Input Name example](public/input-number.png)
+![Input Number example](public/input-number.png)
 ## variant "email"
-![Input Name example](public/email.png)
+![Input Email example](public/email.png)
 ## variant "password" is not visible value
-![Input Name example](public/password-not-visible.png)
+![Input Password example](public/password-not-visible.png)
 ## variant "password" is visible value
-![Input Name example](public/password-visible.png)
+![Input Password example](public/password-visible.png)
 ## variant "error"
-![Input Name example](public/input-error.png)
+![Input Error example](public/input-error.png)
+
+## Toast
+Toast have 4 variants: error, info, wraning, success. Component toast have props: type: "success" | "error" | "info" | "wraning", message: your message, duration: how many live render component, closable: render button close component, onClose function close
+
+## toast "error"
+![Input Error example](public/toast-error.png)
+## toast "success"
+![Input Success example](public/toast-success.png)
+## toast "info"
+![Input Info example](public/toast-info.png)
+## toast "wraning"
+![Input Wraning example](public/toast-wraning.png)
