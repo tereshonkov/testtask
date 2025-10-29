@@ -36,6 +36,18 @@ export const InteractiveText = () => {
       />
   );
 };
+export const InteractiveTextWidthOutClearable = () => {
+  const [value, setValue] = useState("");
+
+  return (
+      <Input
+        variants="text"
+        label="Last Name"
+        value={value}
+        onChange={setValue}
+      />
+  );
+};
 export const InteractiveEmail = () => {
   const [value, setValue] = useState("");
 

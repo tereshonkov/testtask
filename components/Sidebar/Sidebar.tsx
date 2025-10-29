@@ -23,7 +23,9 @@ export default function Sidebar({ items, open, onClose }: SliderProps) {
   return (
     <div className="fixed inset-0 bg-black/50 z-40" onClick={onClose}>
       <div
-        className="fixed right-0 top-0 h-full w-[30vw] z-50 border border-white shadow-lg transition-transform duration-300 rounded-2xl"
+        className={`fixed right-0 top-0 h-full w-[30vw]  shadow-lg z-50 border border-white  rounded-l-2xl transform transition-transform duration-500 ease-in-out ${
+            open ? "translate-x-0" : "translate-x-full"
+          }`}
         onClick={(e) => e.stopPropagation()}
       >
         <div className="p-4">
