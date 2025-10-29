@@ -37,7 +37,7 @@ export default function Toast({
   }, [visible, onClose]);
   return (
     <div
-      className={`${bg[type]} fixed bottom-5 right-5 rounded-2xl text-white shadow-2xl transition-all duration-300`}
+      className={`${bg[type]} fixed bottom-5 right-5 rounded-2xl text-white shadow-2xl transition-all duration-300 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
     >
       <div className="flex items-center justify-between gap-3">
         <span className="p-4">{message}</span>

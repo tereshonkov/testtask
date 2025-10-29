@@ -26,18 +26,6 @@ export const InteractiveSidebar = () => {
   ];
 
   return (
-    <>
-      {!isOpen && (
-        <button
-          className="m-4 p-2 bg-blue-500 text-white rounded"
-          onClick={() => setIsOpen(true)}
-        >
-          {!isOpen && "Open Sidebar"}
-        </button>
-      )}
-      {isOpen && (
         <Sidebar open={isOpen} onClose={() => setIsOpen(false)} items={items} />
-      )}
-    </>
   );
 };

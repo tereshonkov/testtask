@@ -21,7 +21,7 @@ export default function Sidebar({ items, open, onClose }: SliderProps) {
     setOpenItems((prev) => ({ ...prev, [index]: !prev[index] }));
   };
   return (
-    <div className="fixed inset-0 bg-black/50 z-40" onClick={onClose}>
+    <div className="fixed inset-0 bg-black/50 z-40 transition-opacity" onClick={onClose}>
       <div
         className={`fixed right-0 top-0 h-full w-[30vw]  shadow-lg z-50 border border-white  rounded-l-2xl transform transition-transform duration-500 ease-in-out ${
             open ? "translate-x-0" : "translate-x-full"
