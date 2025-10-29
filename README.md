@@ -30,5 +30,6 @@ value: value for input
 onChange: function for value
 disbled: disble input
 
+##variant "text" have button for clear text
 ![Input Name example](public/name-wth-btn.png)
 
