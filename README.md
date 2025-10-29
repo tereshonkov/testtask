@@ -49,10 +49,19 @@ disbled: disble input
 Toast have 4 variants: error, info, wraning, success. Component toast have props: type: "success" | "error" | "info" | "wraning", message: your message, duration: how many live render component, closable: render button close component, onClose function close
 
 ## toast "error"
-![Input Error example](public/toast-error.png)
+![toast Error example](public/toast-error.png)
 ## toast "success"
-![Input Success example](public/toast-success.png)
+![toast Success example](public/toast-success.png)
 ## toast "info"
-![Input Info example](public/toast-info.png)
+![toast Info example](public/toast-info.png)
 ## toast "wraning"
-![Input Wraning example](public/toast-wraning.png)
+![toast Wraning example](public/toast-wraning.png)
+
+
+## Slider component
+Slider has 3 arguments: items: Array, open: boolean, onClose: function closed
+
+##Opened Slider
+![Slider opened example](public/slider.png)
+##Opened slider second menu
+![Slider opened example](public/slider-open-2-menu.png)
