@@ -3,15 +3,10 @@ import { useState } from "react";
 import { IoEyeSharp } from "react-icons/io5";
 import { FaEyeSlash } from "react-icons/fa";
 
-const variants = {
-  password: "password",
-  text: "text",
-  email: "email",
-  number: "number",
-};
+type Variant = "password" | "text" | "email" | "number";
 
 interface InputProps {
-  variants: keyof typeof variants;
+  variants: Variant;
   label: string;
 }
 
