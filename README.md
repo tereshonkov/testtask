@@ -58,10 +58,10 @@ Toast have 4 variants: error, info, wraning, success. Component toast have props
 ![toast Wraning example](public/toast-wraning.png)
 
 
-## Slider component
-Slider has 3 arguments: items: Array, open: boolean, onClose: function closed
+## Sidebar component
+Sidebar has 3 arguments: items: Array, open: boolean, onClose: function closed
 
-##Opened Slider
-![Slider opened example](public/slider.png)
-##Opened slider second menu
-![Slider opened example](public/slider-open-2-menu.png)
+##Opened Sidebar
+![Sidebar opened example](public/sidebar.png)
+##Opened Sidebar second menu
+![Sidebar opened example](public/sidebar-open-2-menu.png)
