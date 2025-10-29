@@ -59,7 +59,7 @@ Toast have 4 variants: error, info, wraning, success. Component toast have props
 
 
 ## Sidebar component
-Sidebar has 3 arguments: items: Array, open: boolean, onClose: function closed
+Sidebar has 3 arguments: items: Array, open: boolean, onClose: function closed. When click without Sidebar, its closed
 
 ##Opened Sidebar
 ![Sidebar opened example](public/sidebar.png)
